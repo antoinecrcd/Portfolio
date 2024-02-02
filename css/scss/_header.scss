@@ -1,0 +1,37 @@
+nav h2 {
+    display: inline-block;
+    color: #FFF;
+    font-family: Clash Display;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-right: 182px;
+}
+
+.nav-flex{
+    display: flex;
+    align-items: baseline;
+
+}
+
+header{
+    position: relative;
+    padding: 64px!important;
+}
+
+.work:link, .work:visited{
+    right: 64px;
+    bottom: 70px;
+    position: absolute;
+    transition: all 0.2s;
+    color: #FFF;
+    text-decoration: none;
+    padding: 8px 10px;
+    border: solid 1px #FFF;
+    border-radius: 9999px;
+}
+
+.work:hover, .work:active{
+    transform: scale(1.2);
+}
