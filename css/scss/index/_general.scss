@@ -1,0 +1,200 @@
+body {
+    font-family: Clash Display!important;
+    background-color: black;
+    color: #FFF;
+}
+
+
+.links{
+    display: flex;
+    width: fit-content;
+    gap: 100px;
+}
+
+.menu {
+    display: flex;
+    gap: 79px;
+}
+
+
+h1{
+    width: fit-content;
+    font-family: 'Clash Display', sans-serif;
+    font-size: 120px;
+    font-style: normal;
+    font-weight: 500;
+    text-align: center;
+    line-height: normal;
+}
+
+
+section#cards {
+    margin: 0 auto;
+    max-width: 1440px;
+    padding: 0 5px;
+    background: red;
+}
+
+#hero {
+    cursor: url("fleche.svg");
+}
+
+/* #custom-cursor{
+    position:fixed;
+    width: 157px;
+    height: 157px;
+    pointer-events: none;
+    z-index: 9999;
+
+} */
+
+/* Définit la grille */
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  
+#card-presentation {
+    background-color: rgba(255, 255, 255, 0.1);
+
+}
+
+
+.medias:link, .medias:visited{
+    right: 64px;
+    bottom: 70px;
+    position: absolute;
+    transition: all 0.2s;
+    color: #FFF;
+    text-decoration: none;
+    padding: 8px 10px;
+    border: solid 1px #FFF;
+    border-radius: 9999px;
+}
+.medias:hover, .medias:active{
+    transform: scale(1.2);
+}
+
+#card-presentation {
+    color: #FFF;
+    font-family: Clash Display;
+    font-size: 42.548px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    display: flex;
+    padding: 45px 58px 49px 58px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 314px;
+    margin-left: 77px;
+    margin-top: 276px;
+}
+
+#cards{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.description-presentation-text {
+color: #FFF;
+font-family: Clash Display;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.medias {
+color: #FFF;
+font-family: Clash Display;
+font-size: 16.939px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+.containers {
+    background-image: url("antoine.svg");
+    width: 200px;
+    height: 200px;
+}
+
+.media {
+    margin-left: 200px;
+}
+
+#photo-bordeaux {
+display: flex;
+width: 557px;
+height: 854px;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding-top: 275px;
+padding-left: 152px;
+}
+
+.titre-projet {
+color: #FFF;
+font-family: Clash Display;
+font-size: 35.129px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+
+.description-projet {
+color: #000000;
+font-family: Clash Display;
+font-size: 17.564px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+#brown-card1 {
+    background-color: #635B4C; 
+
+}
+
+#brown-card1 {
+    color: #FFF;
+    font-family: Clash Display;
+    font-size: 42.548px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    display: flex;
+    padding: 45px 58px 49px 58px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-left: 77px;
+    margin-top: 276px;
+    height: 754px;
+}
+
+#instagram {
+width: 366px;
+height: 649px;
+}
+
+#cuisto {
+width: 366px;
+height: 649px;
+}
+
+#purple-card {
+    background-color: #5371FF; 
+
+}
+
+#purple-card {
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+
+}
