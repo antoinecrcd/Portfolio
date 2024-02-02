@@ -1,0 +1,10 @@
+// Variables
+$border-radius: 1rem;
+
+
+// Mixins
+@mixin ClashDisplay($size: 18, $weight: 400) {
+    font-family: Clash Display;
+    font-size: #{$size}px;
+    font-weight: $weight;
+}

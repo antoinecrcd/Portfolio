@@ -36,6 +36,12 @@ header {
   transform: scale(1.2);
 }
 
+html, html * {
+  font-family: Clash Display;
+  font-size: 18px;
+  font-weight: 400;
+}
+
 body {
   font-family: Clash Display !important;
   background-color: black;
@@ -49,11 +55,6 @@ body {
   gap: 100px;
 }
 
-.menu {
-  display: flex;
-  gap: 79px;
-}
-
 h1 {
   width: -moz-fit-content;
   width: fit-content;
@@ -63,13 +64,6 @@ h1 {
   font-weight: 500;
   text-align: center;
   line-height: normal;
-}
-
-section#cards {
-  margin: 0 auto;
-  max-width: 1440px;
-  padding: 0 5px;
-  background: red;
 }
 
 #hero {
@@ -125,11 +119,6 @@ section#cards {
   gap: 314px;
   margin-left: 77px;
   margin-top: 276px;
-}
-
-#cards {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
 }
 
 .description-presentation-text {
@@ -222,14 +211,40 @@ section#cards {
 
 #purple-card {
   background-color: #5371FF;
-}
-
-#purple-card {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
 }
 
 .containerCards {
-  background: blue;
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 6rem;
+}
+.containerCards .card {
+  width: 480px;
+  height: 640px;
+  background: red;
+  border-radius: 1rem;
+}
+
+.card-phone {
+  padding-top: 1.5rem;
+}
+.card-phone h3 {
+  font-family: Clash Display;
+  font-size: 36px;
+  font-weight: 500;
+  margin-left: 2rem;
+}
+.card-phone p {
+  margin-top: 0.5rem;
+  margin-left: 2rem;
+}
+.card-phone div {
+  display: flex;
+  justify-content: center;
+}
+.card-phone div img {
+  height: 560px;
 }/*# sourceMappingURL=style.css.map */

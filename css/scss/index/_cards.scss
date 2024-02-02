@@ -1,3 +1,30 @@
 .containerCards {
-    background: blue;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 6rem;
+    .card {
+        width: 480px;
+        height: 640px;
+        background: red;
+        border-radius: $border-radius;
+    }
+}
+
+.card-phone {
+    padding-top: 1.5rem;
+    h3 {
+        @include ClashDisplay(36, 500);
+        margin-left: 2rem;
+    }
+    p {
+        margin-top: .5rem;
+        margin-left: 2rem;
+    }
+    div {
+        display: flex;
+        justify-content: center;
+        img {
+            height: 560px;
+        }
+    }
 }
