@@ -17,7 +17,7 @@ nav h2 {
 
 header {
   position: relative;
-  padding: 64px !important;
+  padding: 64px;
 }
 
 .work:link, .work:visited {
@@ -43,7 +43,7 @@ html, html * {
 }
 
 body {
-  font-family: Clash Display !important;
+  font-family: Clash Display;
   background-color: black;
   color: #FFF;
 }
@@ -226,6 +226,7 @@ h1 {
   height: 640px;
   background: red;
   border-radius: 1rem;
+  flex-wrap: wrap;
 }
 
 .card-phone {
@@ -248,4 +249,5 @@ h1 {
 .card-phone div img {
   height: 560px;
 }/*# sourceMappingURL=style.css.map */
+
 
