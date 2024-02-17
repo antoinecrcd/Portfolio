@@ -67,9 +67,15 @@ h1 {
 }
 
 #hero {
+  padding-bottom: 100px;
   cursor: url("fleche.svg");
 }
 
+.fleche {
+  padding-top: 20px;
+  margin: 0 auto;
+  display: block;
+}
 /* #custom-cursor{
     position:fixed;
     width: 157px;
@@ -250,4 +256,140 @@ h1 {
   height: 560px;
 }/*# sourceMappingURL=style.css.map */
 
+.box {
+display: inline-flex;
 
+flex-direction: column;
+align-items: flex-start;
+gap: 53px;
+background: #FFF;
+}
+
+.travailler {
+  color: #000;
+font-family: "Clash Display";
+font-size: 40.8px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+.mail {
+  color: #261515;
+font-family: "Clash Display";
+font-size: 25.688px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+#footer-box {
+  max-width: 1220px;
+  border-radius: 12px;
+  margin: 0 auto;
+    padding: 50px 50px;
+  width: 100%;
+  background-color: white;
+}
+.box-contact {
+  display: flex;
+  gap: 25px;
+}
+.box-contact a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 16px;
+  border: 1px solid black;
+  border-radius: 9999px;
+}
+
+.contactez-moi {
+  text-decoration: none;
+  color: white;
+  border-radius: 60px;
+background: #000;
+}
+
+.contactez-moi:hover, .contactez-moi:hover:active {
+  transform: scale(1.2);
+}
+
+
+.contactez-moi:link, .contactez-moi:visited {
+  right: 64px;
+  bottom: 70px;
+  transition: all 0.2s;
+  color: #FFF;
+  text-decoration: none;
+  padding: 8px 10px;
+  border: solid 1px #FFF;
+  border-radius: 60px;
+  background: #000;
+}
+
+.link-footer ul li {
+  display: inline-block; 
+  margin-bottom: 10px;
+}
+
+.link-footer ul li a {
+  color: #FFF;
+  font-family: "Clash Display";
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 124%; /* 31px */
+  letter-spacing: 0.154px;
+  text-decoration: none;
+}
+
+.link-footer ul li a:hover {
+  text-decoration: underline;
+}
+
+.link-footer {
+  display: flex; /* Conteneur flexible */
+  justify-content: space-between; /* Répartit l'espace uniformément */
+  padding-top: 65px;
+  margin: 0 80px;
+  float: right;
+}
+
+.link-footer ul {
+  padding: 0; 
+  list-style: none; 
+}
+
+.link-footer ul li:last-child { 
+  margin-bottom: 0;
+}
+
+.link-footer ul li {
+  margin: 0 20px; /* Marge horizontale automatique */
+}
+
+
+.end-footer {
+  margin-left: 64px;
+  letter-spacing: 0.16px;
+  color: #9E9E9E;
+  font-family: "Clash Display";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 124%; /* 17.36px */
+  padding-top: 75px;
+  padding-left: 30px;
+}
+
+
+.footer-container {
+  /* Set a width if needed */
+  clear: both;
+}
+
+.presentation {
+  padding: 85px 274px 104px;
+}
