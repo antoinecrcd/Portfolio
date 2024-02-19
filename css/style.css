@@ -391,5 +391,26 @@ background: #000;
 }
 
 .presentation {
-  padding: 85px 274px 104px;
+  margin: 269px 274px 1224px 181px;
+
+}
+
+.h3 {
+  font-family: Clash Display;
+  font-size: 36px;
+  font-weight: 500;
+  margin-left: 5rem;
+  padding-bottom: 85px;
+}
+
+.text-presentation {
+  font-family: Clash Display;
+  font-size: 30px;
+  font-weight: 400;
+  margin-left: 5rem;
+  padding-bottom: 85px;
+}
+
+.etudiant-text {
+  padding-bottom: 85px;
 }
