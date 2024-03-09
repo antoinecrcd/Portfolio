@@ -15,6 +15,20 @@ nav h2 {
   align-items: baseline;
 }
 
+
+.nav-flex a:hover {
+  opacity: 0.8;
+}
+
+.navigation a {
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
 header {
   position: relative;
   padding: 64px;
@@ -256,6 +270,10 @@ h1 {
   height: 560px;
 }/*# sourceMappingURL=style.css.map */
 
+.card:hover{
+  opacity: 0.8;
+}
+
 .box {
 display: inline-flex;
 
@@ -394,6 +412,9 @@ background: #000;
   margin: 269px 274px 1224px 181px;
 }
 
+#presentation{
+  padding: 2% 9%;
+}
 .section_positive_points{
   display: flex;
   flex-direction: row;
