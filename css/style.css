@@ -535,3 +535,9 @@ padding-top: 60px;
 .instagram_account_before {
   padding-top: 50px;
 }
+
+.page_accueil {
+  width: 1024px;
+height: 544px;
+flex-shrink: 0;
+}
