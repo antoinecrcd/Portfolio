@@ -90,6 +90,7 @@ h1 {
   margin: 0 auto;
   display: block;
 }
+
 /* #custom-cursor{
     position:fixed;
     width: 157px;
@@ -243,12 +244,14 @@ h1 {
 }
 .containerCards .card {
   width: 480px;
-  height: 640px;
   background: red;
   border-radius: 1rem;
   flex-wrap: wrap;
 }
 
+.height {
+  height: 708px;
+}
 .card-phone {
   padding-top: 1.5rem;
 }
@@ -266,10 +269,14 @@ h1 {
   display: flex;
   justify-content: center;
 }
-.card-phone div img {
+.instagram_image {
   height: 560px;
-}/*# sourceMappingURL=style.css.map */
+}
 
+.arrow_image {
+  margin: 1.5rem;
+  margin-top: 0;
+}
 .card:hover{
   opacity: 0.8;
 }

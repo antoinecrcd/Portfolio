@@ -11,7 +11,7 @@
 }
 
 .card-phone {
-    padding-top: 1.5rem;
+    padding: 1.5rem;
     h3 {
         @include ClashDisplay(36, 500);
         margin-left: 2rem;
@@ -23,9 +23,8 @@
     div {
         display: flex;
         justify-content: center;
-        img {
+        .instagram_image {
             height: 560px;
         }
     }
 }
-
